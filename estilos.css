@@ -415,7 +415,7 @@ h1 {
 @media (max-width: 900px) {
   body img{
     
-    max-width: 300px;
+    max-width: cover;
   }
 }
 
@@ -482,3 +482,12 @@ h1 {
 .titulo h4{
   font-size: 1.28rem;
 }
+
+@media (max-width: 900px) {
+  .titulo{
+    padding: 0px;
+    
+  }
+
+
+ 
